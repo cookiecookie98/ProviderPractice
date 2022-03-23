@@ -8,7 +8,7 @@ class Logger
     {
         // send the log to an external service
 
-        return 'Sent';
+        return 'Sent !';
     }
 
     public static function log($log)

@@ -17,7 +17,6 @@ class ExternalApiHelper
         return $this->foo;
     }
 
-
     public function bar(){
         return app(ExternalApiHelper::class)->foo();
     }
